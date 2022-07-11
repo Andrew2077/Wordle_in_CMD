@@ -57,6 +57,7 @@ ___
 - guessing different lenghtes words
 - Website
 - QT GUI
+- AI model to solve the game
 
 ---
 
