@@ -1,8 +1,8 @@
 
 ## **Wordle game in CMD**
-wordle is a famouse word guessing game. and for whom doesn't knwo the game here's a simple **[tutorial](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring)** for the game.
+**Wordle** is a famous word-guessing game. And for whom doesn't know the game, here's a simple **[tutorial](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring)** for the game.
 
-you can try [**Wordle**](https://wordlegame.org) yourself before hitting my project
+You can try [**Wordle**](https://wordlegame.org) yourself before hitting my project.
 
 
 ___
@@ -17,45 +17,47 @@ ___
 
 ___
 ## **The Idea of the project**
-copy and modify the know game worlde.
-it's almost the same game but with fewers words to predict and less fancy animation. cause im not using Css or Qt yet.
+copy and modify the known game worlde.
+It's almost the same game but with fewer words to predict and less fancy animation. because I'm not using CSS or Qt yet.
 
-there are 2500 words to guess from they are found in **[valid_words_5](valid_words_5.py)** you can add your own words and try gueessing them.
+There are 2400+ words to guess from where you find them in **[valid_words_5](valid_words_5.py)** You can add your own words and try guessing them.
 ___
 
 
 ## **How to play**
-- all wordle games are the same just guess words know to the game
+- All wordle games are the same, just guess words known to the game.
   
-- your goal is to guess a word of **5 letters** in **6 attempts** at most,
-if you can't guess the word in 6 attempts then you lose.
-   
-- here give [my wordle](Wordle.exe) a try
+- Your goal is to guess a word of **5 letters** in **6 attempts** at most. If you can't guess the word in 6 attempts, then you lose.
 
-- here's an example for winning the game 
+- After winning or losing, the game will shut itself down in **10 seconds**, and you can start a new game by reopening **Wordle.exe** again.
+   
+- Here, give [my wordle](Wordle.exe) a try.
+
+- Here's an example of winning the game. 
   
 ![guide lines](winning.gif)
 
-- here's an example for me losing the game 
+-Here's an example of me losing the game. 
 
 ![guide lines](losing.gif)
+
 
 
 ___
 ## **Project Guideline**  
 
-  1. creating a file **[[valid_words_5]](valid_words_5.py)** to be your data set of words to guess.
-  2. creating a file **[[wordle_game]](wordle_game.py)** to be your game.
-  3. creating a file **[[main]](main.py)** your game intialization in cmd.
-  4. **[[wordle]](wordle.py)** is file modified to contain all the files above ,so that the game can be in 1 file project. 
-  5. converting worlde.py to worlde.exe to run the game in cmd.
+  1. Create a file **[[valid_words_5.py]](valid_words_5.py)** to be your data set of words to guess.
+  2. Creating a file **[[wordle_game.py]](wordle_game.py)** to be your game.
+  3. Creating a file **[[main.py]](main.py)** your game initialization in cmd.
+  4. **[[Wordle.py]](wordle.py)** is a file modified to contain all the files above so that the game can be in 1 file project. 
+  5. Converting worlde.py to worlde.exe to run the game in cmd.
 
 
 ---
 ## **Cheat**
-once you open the game **[Cheat](cheat.txt)** is created where it stored the random word that your are trying to guess, so you can use it to cheat. and finish the game.
+Once you open the game **[Cheat](cheat.txt)** is created where it stores the random word that you are trying to guess, so you can use it to cheat. And finish the game quickly.
 
-it's really helpful for debugging. or you can edit the this snippet to your own words.
+It's very helpful for debugging. Or you can edit this snippet to your own words.
 
 ```python
 # * choose a random word from the list of valid words
@@ -66,8 +68,8 @@ CHOOSEN_WORD = "trunk"
 ---
 ## **Planned improvements**
 
-- adding more words
-- guessing different lenghtes words
+- Adding more words
+- Guessing different lenghtes words
 - Website
 - QT GUI
 - AI model to solve the game
