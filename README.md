@@ -48,7 +48,7 @@ ___
 
   1. Create a file **[[valid_words_5.py]](valid_words_5.py)** to be your data set of words to guess.
   2. Creating a file **[[wordle_game.py]](wordle_game.py)** to be your game.
-  3. Creating a file **[[main.py]](main.py)** your game initialization in cmd.
+  3. Creating a file **[[main.py]](main.py)** your main file.
   4. **[[Wordle.py]](wordle.py)** is a file modified to contain all the files above so that the game can be in 1 file project. 
   5. Converting worlde.py to worlde.exe to run the game in cmd.
 
