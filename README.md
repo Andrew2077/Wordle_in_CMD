@@ -25,7 +25,9 @@ ___
 
 
 ## **How to play**
-- all wordle games are the same just guess words know to the game 
+- all wordle games are the same just guess words know to the game
+   
+- here give [my wordle](Wordle.exe) a try
 
 - here's an example for winning the game 
   
