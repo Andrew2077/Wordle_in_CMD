@@ -26,6 +26,9 @@ ___
 
 ## **How to play**
 - all wordle games are the same just guess words know to the game
+  
+- your goal is to guess a word of **5 letters** in **6 attempts** at most,
+if you can't guess the word in 6 attempts then you lose.
    
 - here give [my wordle](Wordle.exe) a try
 
