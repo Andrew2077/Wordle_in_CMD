@@ -13,7 +13,7 @@ ___
 - [**How to play**](#how-to-play)
 - [**Project Guideline**](#project-guideline)
 - [**Cheat**](#cheat)
-- [**Future Work**](#future-work)
+- [**Planned improvements**](#planned-improvements)
 
 ___
 ## **The Idea of the project**
@@ -64,7 +64,7 @@ CHOOSEN_WORD = random.choice(valid_words)
 CHOOSEN_WORD = "trunk"
 ```
 ---
-## **Future Work**
+## **Planned improvements**
 
 - adding more words
 - guessing different lenghtes words
