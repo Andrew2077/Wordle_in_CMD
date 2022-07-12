@@ -50,8 +50,16 @@ ___
 
 ---
 ## **Cheat**
-**[Cheat](Human_activity_recognition.pdf)** is where the Random choosed is saved, so you can use it to cheat. and finish the game.
+once you open the game **[Cheat](cheat.txt)** is created where it stored the random word that your are trying to guess, so you can use it to cheat. and finish the game.
 
+it's really helpful for debugging. or you can edit the this snippet to your own words.
+
+```python
+# * choose a random word from the list of valid words
+CHOOSEN_WORD = random.choice(valid_words)
+# or this for easier debugging
+CHOOSEN_WORD = "trunk"
+```
 ---
 ## **Future Work**
 
